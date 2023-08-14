@@ -11,13 +11,29 @@ body{
 
 table{
 	margin: 30px auto;
+    border-collapse: collapse;
+    width: 60%;
 }
 
-thead
+th {
+    font-weight: bold;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #a8a6a6;
+}
+
+/* thead
 {
     font-weight:bold;
 }
 tr.alt
 {
     background-color: #777777;
-}
+} */
