@@ -20,10 +20,10 @@
                $('.striped tr:even').addClass('alt');
             });
         </script>
-    <title>Document</title>
+    <title>Student Manager</title>
 </head>
 <body>
-    <h1>Employee Manager</h1>
+    <h1>Student Manager</h1>
     <table class="table">
         <thead>
             <td scope="col">Emp. ID</td>
